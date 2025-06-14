@@ -1,0 +1,8 @@
+prefix=/home/kjsbrian/projects/vint_ws/install
+
+Name: ros_x_habitat
+Description: Description of ros_x_habitat
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
