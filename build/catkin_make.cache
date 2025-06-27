@@ -1,2 +1,0 @@
-ros_x_habitat
--DCATKIN_DEVEL_PREFIX=/home/kjsbrian/projects/vint_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kjsbrian/projects/vint_ws/install -G Unix Makefiles

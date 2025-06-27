@@ -1,2 +1,0 @@
-set(ros_x_habitat_MESSAGE_FILES "/home/kjsbrian/projects/vint_ws/src/ros_x_habitat/msg/PointGoalWithGPSCompass.msg;/home/kjsbrian/projects/vint_ws/src/ros_x_habitat/msg/DepthImage.msg")
-set(ros_x_habitat_SERVICE_FILES "/home/kjsbrian/projects/vint_ws/src/ros_x_habitat/srv/EvalEpisode.srv;/home/kjsbrian/projects/vint_ws/src/ros_x_habitat/srv/ResetAgent.srv;/home/kjsbrian/projects/vint_ws/src/ros_x_habitat/srv/GetAgentTime.srv;/home/kjsbrian/projects/vint_ws/src/ros_x_habitat/srv/Roam.srv;/home/kjsbrian/projects/vint_ws/src/ros_x_habitat/srv/GetAgentPose.srv")
