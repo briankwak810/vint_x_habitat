@@ -3,4 +3,4 @@
 	url = git@github.com:briankwak810/ros_x_habitat.git
 [submodule "src/visualnav-transformer"]
 	path = src/visualnav-transformer
-	url = git@github.com:robodhruv/visualnav-transformer.git
+	url = git@github.com:briankwak810/visualnav-transformer.git
