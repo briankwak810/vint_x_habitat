@@ -28,4 +28,26 @@ This package 🌉 bridges the **ViNT (Visual Navigation Transformer)** continuou
 
 ---
 
-## Launch on the way
+## v0: Naive General Navigation Models
+
+- **Pretrained** GNMs on previous research, e.g. ViNT[https://arxiv.org/abs/2306.14846], NoMaD[https://arxiv.org/abs/2310.07896] can be deployed and teleoperated **fully online**.
+- MP3D scene datasets can be explored(zero-shot) and navigated(with prior topological map at hand).
+- **Below:** Goal-directed navigation done by NoMaD model with goal image given as shown.
+  <table>
+  <tr>
+    <td>
+      <!-- left cell: video -->
+      <video controls width="400">
+        <source src="./files/Naive NoMaD with zero fine-tuning.mp4" type="video/mp4">
+        Your browser doesn’t support HTML5 video. 
+        <a href="./files/Naive NoMaD with zero fine-tuning.mp4">Download the video</a> instead.
+      </video>
+    </td>
+    <td>
+      <!-- right cell: image -->
+      <img src="./files/Goal for Naive NoMaD with zero fine-tuning.png" alt="Diagram" width="400" />
+    </td>
+  </tr>
+</table>
+
+- **Issues and future development:** Solve physical crashing issues, fine-tuning checkpoints for navigation in unseen environment
