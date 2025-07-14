@@ -52,12 +52,12 @@ class VintHabitatBridge:
         """Load ViNT configuration files"""
         try:
             # Load robot config
-            robot_config_path = "/home/kjsbrian/projects/vint_ws/src/visualnav-transformer/deployment/config/robot.yaml"
+            robot_config_path = "/home/kjsbrian/projects/vint_x_habitat/src/visualnav-transformer/deployment/config/robot.yaml"
             with open(robot_config_path, 'r') as f:
                 self.robot_config = yaml.safe_load(f)
             
             # Load joystick config
-            joy_config_path = "/home/kjsbrian/projects/vint_ws/src/visualnav-transformer/deployment/config/joystick.yaml"
+            joy_config_path = "/home/kjsbrian/projects/vint_x_habitat/src/visualnav-transformer/deployment/config/joystick.yaml"
             with open(joy_config_path, 'r') as f:
                 self.joy_config = yaml.safe_load(f)
                 

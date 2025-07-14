@@ -33,27 +33,27 @@ class VintHabitatEvaluator(HabitatROSEvaluator):
         """Start complete ViNT-Habitat system"""
         # 1. Start ViNT agent services first
         agent_services_args = shlex.split(
-            f"python /home/kjsbrian/projects/vint_ws/src/vint_habitat/vint_agent_services.py"
+            f"python /home/kjsbrian/projects/vint_x_habitat/src/vint_habitat/vint_agent_services.py"
         )
         self.agent_process = subprocess.Popen(agent_services_args)
         rospy.loginfo(f"Started ViNT agent services with PID: {self.agent_process.pid}")
         
         # 2. Start ViNT-Habitat bridge
         bridge_args = shlex.split(
-            f"python /home/kjsbrian/projects/vint_ws/src/vint_habitat/vhab_bridge.py"
+            f"python /home/kjsbrian/projects/vint_x_habitat/src/vint_habitat/vhab_bridge.py"
         )
         self.bridge_process = subprocess.Popen(bridge_args)
         rospy.loginfo(f"Started ViNT-Habitat bridge with PID: {self.bridge_process.pid}")
         
         # # 3. Start ViNT navigation launcher
         # nav_launcher_args = shlex.split(
-        #     f"python /home/kjsbrian/projects/vint_ws/src/vint_habitat/vint_nav_launcher.py"
+        #     f"python /home/kjsbrian/projects/vint_x_habitat/src/vint_habitat/vint_nav_launcher.py"
         # )
         # self.nav_launcher_process = subprocess.Popen(nav_launcher_args)
         # rospy.loginfo(f"Started ViNT navigation launcher with PID: {self.nav_launcher_process.pid}")
         
         # 4. Start environment node (using ViNT launcher for proper topic mapping)
-        env_script = "/home/kjsbrian/projects/vint_ws/src/vint_habitat/vint_env_launcher.py"
+        env_script = "/home/kjsbrian/projects/vint_x_habitat/src/vint_habitat/vint_env_launcher.py"
         
         base_args = [
             "python", env_script,

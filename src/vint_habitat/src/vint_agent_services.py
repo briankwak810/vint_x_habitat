@@ -7,7 +7,7 @@ import time
 
 # Import from ros_x_habitat
 import sys
-sys.path.append('/home/kjsbrian/projects/vint_ws/src/ros_x_habitat/src')
+sys.path.append('/home/kjsbrian/projects/vint_x_habitat/src/ros_x_habitat/src')
 from constants.constants import AgentResetCommands, PACKAGE_NAME, ServiceNames
 
 class VintAgentServices:
