@@ -37,7 +37,7 @@ This package 🌉 bridges the **ViNT (Visual Navigation Transformer)** continuou
   <tr>
     <td>
       <!-- left cell: video -->
-      <video controls width="400">
+      <video controls width="600">
         <source src="./files/Naive NoMaD with zero fine-tuning.mp4" type="video/mp4">
         Your browser doesn’t support HTML5 video. 
         <a href="./files/Naive NoMaD with zero fine-tuning.mp4">Download the video</a> instead.
@@ -45,7 +45,7 @@ This package 🌉 bridges the **ViNT (Visual Navigation Transformer)** continuou
     </td>
     <td>
       <!-- right cell: image -->
-      <img src="./files/Goal for Naive NoMaD with zero fine-tuning.png" alt="Diagram" width="400" />
+      <img src="./files/Goal for Naive NoMaD with zero fine-tuning.png" alt="Diagram" width="200" />
     </td>
   </tr>
 </table>
